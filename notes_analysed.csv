@@ -1,0 +1,11 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status
+N001,A0872,forgot_or_no_reminder,1.0,Patient missed the appointment because they did not receive a reminder and subsequently forgot the scheduled visit.,Verify patient contact information and confirm enrollment in automated appointment reminder notifications.,validated
+N002,A0897,distance_or_transport,1.0,Patient missed appointment due to lack of transportation and the clinic's distance from their home.,Provide information on local medical transport services or discuss telehealth options if applicable.,validated
+N003,A0526,cost_or_fee,1.0,Patient missed the appointment due to financial concerns regarding the consultation fee.,Provide the patient with information regarding available financial assistance programs or sliding scale payment options.,validated
+N004,A0926,,,No follow-up note provided,Contact patient to clarify the reason,missing_note
+N005,A0534,illness_or_emergency,1.0,Patient missed appointment due to high fever and body aches.,Contact patient after a reasonable recovery period to reschedule the appointment.,validated
+N006,A0507,work_or_schedule,1.0,"Patient missed appointment due to an urgent, mandatory work meeting.",Reschedule the appointment to an evening time slot as requested by the patient.,validated
+N007,A0333,forgot_or_no_reminder,1.0,Patient missed the appointment due to forgetting and not receiving an SMS reminder.,Verify patient contact information and ensure SMS reminder system is functioning correctly.,validated
+N008,A0222,distance_or_transport,1.0,Patient missed appointment due to a city bus strike and lack of available transportation options.,Offer the patient telehealth options or assist in identifying local medical transport services for future visits.,validated
+N009,A0977,other,0.8,Patient unreachable after three attempts due to phone being switched off.,Send a follow-up letter or secure message to request updated contact information.,validated
+N010,A0596,work_or_schedule,1.0,Patient missed appointment due to a factory shift change and requested Saturday availability.,Update patient profile to prioritize Saturday appointment slots for future scheduling.,validated
