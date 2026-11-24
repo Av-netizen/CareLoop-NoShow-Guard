@@ -1,6 +1,24 @@
 
 -- ==========================================
 -- CARELOOP CLINICS - NO-SHOW GUARD
+-- TASK 2.1 - PRIMARY KEY VALIDATION
+-- ==========================================
+
+-- Duplicate Primary Key Test
+-- Attempted to insert an existing appointment
+-- with appointment_id = 'A0001'.
+
+-- MySQL Error Code: 1062
+-- Duplicate entry 'A0001'
+-- for key 'appointments.PRIMARY'
+
+-- Result:
+-- MySQL successfully rejected the duplicate.
+-- Primary key constraint validated.
+
+
+-- ==========================================
+-- CARELOOP CLINICS - NO-SHOW GUARD
 -- PART 2 - TASK 2.2
 -- CLINIC-WISE NO-SHOW ANALYSIS
 -- ==========================================
